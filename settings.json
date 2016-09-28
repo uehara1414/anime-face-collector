@@ -1,4 +1,4 @@
 {
-  "key": "your-google-vision-api-key",
-  "custom_search_id": "your-custom-search-id"
+  "key": "YOUR-GCP-API-KEY",
+  "custom_search_id": "YOUR-CUSTOM-SEARCH-ENGINE-ID"
 }
