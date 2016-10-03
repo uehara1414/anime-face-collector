@@ -40,6 +40,9 @@ def run(words, limit, output_dir):
         except InvalidImageFormatError as e:
             print(e, file=sys.stderr)
             continue
+        except Exception as e:
+            print(e, "{} のダウンロードに失敗".format(link_url), file=sys.stderr)
+            continue
 
         try:
             faces = get_faces(filename)
